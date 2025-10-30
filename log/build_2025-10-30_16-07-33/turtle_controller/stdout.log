@@ -1,0 +1,47 @@
+running egg_info
+creating ../build/turtle_controller/turtle_controller.egg-info
+writing ../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+writing requirements to ../build/turtle_controller/turtle_controller.egg-info/requires.txt
+writing top-level names to ../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+reading manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build
+creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib
+creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+copying turtle_controller/move_turtle.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+copying turtle_controller/__init__.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+copying turtle_controller/spiral_turtle_parameters.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+copying turtle_controller/spiral_turtle.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+copying turtle_controller/draw_shape_service.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+running install
+running install_lib
+creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/move_turtle.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/spiral_turtle_parameters.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/spiral_turtle.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/draw_shape_service.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/move_turtle.py to move_turtle.cpython-310.pyc
+byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/spiral_turtle_parameters.py to spiral_turtle_parameters.cpython-310.pyc
+byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/spiral_turtle.py to spiral_turtle.cpython-310.pyc
+byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/draw_shape_service.py to draw_shape_service.cpython-310.pyc
+running install_data
+creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index
+creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index
+creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index/packages
+copying resource/turtle_controller -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller
+running install_egg_info
+Copying ../build/turtle_controller/turtle_controller.egg-info to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing draw_shape_service script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+Installing move_turtle script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+Installing spiral_turtle script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+Installing spiral_turtle_parameters script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+writing list of installed files to '/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log'

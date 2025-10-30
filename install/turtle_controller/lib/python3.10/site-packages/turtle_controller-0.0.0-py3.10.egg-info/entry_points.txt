@@ -1,0 +1,6 @@
+[console_scripts]
+draw_shape_service = turtle_controller.draw_shape_service:main
+move_turtle = turtle_controller.move_turtle:main
+spiral_turtle = turtle_controller.spiral_turtle:main
+spiral_turtle_parameters = turtle_controller.spiral_turtle_parameters:main
+

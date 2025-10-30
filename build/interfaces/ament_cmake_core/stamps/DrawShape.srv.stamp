@@ -1,0 +1,5 @@
+string shape
+float64 size
+---
+bool success
+string message

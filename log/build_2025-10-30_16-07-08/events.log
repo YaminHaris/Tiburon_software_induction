@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000601] (-) JobUnselected: {'identifier': 'turtle_interfaces'}
+[0.000749] (turtle_controller) JobQueued: {'identifier': 'turtle_controller', 'dependencies': OrderedDict([('turtle_interfaces', '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces')])}
+[0.000790] (turtle_controller) JobStarted: {'identifier': 'turtle_controller'}
+[0.009088] (turtle_controller) JobEnded: {'identifier': 'turtle_controller', 'rc': 1}
+[0.019597] (-) EventReactorShutdown: {}

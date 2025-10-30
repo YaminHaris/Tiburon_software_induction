@@ -1,0 +1,49 @@
+[0.669s] Invoking command in '/home/yami/CODE/Tiburon Software Induction/turtle_controller': PYTHONPATH=/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build install --record /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.914s] running egg_info
+[0.915s] creating ../build/turtle_controller/turtle_controller.egg-info
+[0.915s] writing ../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.916s] writing requirements to ../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.916s] writing top-level names to ../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.916s] writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.918s] reading manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.919s] writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.919s] running build
+[0.919s] running build_py
+[0.919s] creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build
+[0.919s] creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib
+[0.919s] creating /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.919s] copying turtle_controller/move_turtle.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.920s] copying turtle_controller/__init__.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.920s] copying turtle_controller/spiral_turtle_parameters.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.920s] copying turtle_controller/spiral_turtle.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.920s] copying turtle_controller/draw_shape_service.py -> /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller
+[0.920s] running install
+[0.920s] running install_lib
+[0.921s] creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.921s] copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/move_turtle.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.921s] copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.922s] copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/spiral_turtle_parameters.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.922s] copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/spiral_turtle.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.922s] copying /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build/lib/turtle_controller/draw_shape_service.py -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.922s] byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/move_turtle.py to move_turtle.cpython-310.pyc
+[0.923s] byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__init__.py to __init__.cpython-310.pyc
+[0.923s] byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/spiral_turtle_parameters.py to spiral_turtle_parameters.cpython-310.pyc
+[0.924s] byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/spiral_turtle.py to spiral_turtle.cpython-310.pyc
+[0.925s] byte-compiling /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/draw_shape_service.py to draw_shape_service.cpython-310.pyc
+[0.925s] running install_data
+[0.926s] creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index
+[0.926s] creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index
+[0.926s] creating /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index/packages
+[0.926s] copying resource/turtle_controller -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/ament_index/resource_index/packages
+[0.926s] copying package.xml -> /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller
+[0.926s] running install_egg_info
+[0.928s] Copying ../build/turtle_controller/turtle_controller.egg-info to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+[0.929s] running install_scripts
+[0.950s] Installing draw_shape_service script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+[0.951s] Installing move_turtle script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+[0.951s] Installing spiral_turtle script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+[0.951s] Installing spiral_turtle_parameters script to /home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/turtle_controller
+[0.951s] writing list of installed files to '/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log'
+[0.979s] Invoked command in '/home/yami/CODE/Tiburon Software Induction/turtle_controller' returned '0': PYTHONPATH=/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build install --record /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log --single-version-externally-managed install_data
