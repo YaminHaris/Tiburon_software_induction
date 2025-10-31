@@ -1,0 +1,284 @@
+[0.907s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.907s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7615a912f130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7615a92e0a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7615a92e0a30>>)
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yami/CODE/Tiburon Software Induction'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['ignore', 'ignore_ament_install']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ignore'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ignore_ament_install'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['colcon_pkg']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ros'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['cmake', 'python']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'cmake'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'python'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['python_setup_py']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'python_setup_py'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_pkg'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_meta']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ros'
+[1.673s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'ignore_ament_install'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['colcon_pkg']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'ros'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['cmake', 'python']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'cmake'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_10_31-20_07_16) by extension 'python_setup_py'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extension 'ignore_ament_install'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extensions ['colcon_pkg']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extension 'colcon_pkg'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extensions ['ros']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller) by extension 'ros'
+[1.707s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_controller' with type 'ros.ament_python' and name 'turtle_controller'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ignore'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ignore_ament_install'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['colcon_pkg']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'colcon_pkg'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['colcon_meta']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'colcon_meta'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['ros']
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ros'
+[1.751s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[1.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.061s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[2.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.137s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.138s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yami/CODE/Tiburon Software Induction/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yami/CODE/Tiburon Software Induction/install/interfaces', 'merge_install': False, 'path': '/home/yami/CODE/Tiburon Software Induction/interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.139s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces', 'merge_install': False, 'path': '/home/yami/CODE/Tiburon Software Induction/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_args' from command line to 'None'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target' from command line to 'None'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.139s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.139s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yami/CODE/Tiburon Software Induction/build/turtle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller', 'merge_install': False, 'path': '/home/yami/CODE/Tiburon Software Induction/turtle_controller', 'symlink_install': False, 'test_result_base': None}
+[2.139s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.141s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yami/CODE/Tiburon Software Induction/turtle_interfaces' with build type 'ament_cmake'
+[2.141s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yami/CODE/Tiburon Software Induction/turtle_interfaces'
+[2.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yami/CODE/Tiburon Software Induction/interfaces' with build type 'ament_cmake'
+[2.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yami/CODE/Tiburon Software Induction/interfaces'
+[2.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces -- -j8 -l8
+[2.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/interfaces -- -j8 -l8
+[4.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/interfaces -- -j8 -l8
+[4.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/interfaces
+[4.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces -- -j8 -l8
+[4.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces
+[4.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/interfaces
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces' for CMake module files
+[4.519s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces' for CMake config files
+[4.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.522s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib'
+[4.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.525s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/bin'
+[4.525s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.525s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib/python3.10/site-packages'
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/bin'
+[4.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.ps1'
+[4.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.dsv'
+[4.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.sh'
+[4.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.bash'
+[4.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.zsh'
+[4.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/colcon-core/packages/interfaces)
+[4.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.532s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces' for CMake module files
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces' for CMake config files
+[4.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.535s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib'
+[4.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/bin'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/lib/python3.10/site-packages'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/interfaces/bin'
+[4.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.ps1'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.dsv'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.sh'
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.bash'
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/interfaces/package.zsh'
+[4.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yami/CODE/Tiburon Software Induction/install/interfaces/share/colcon-core/packages/interfaces)
+[4.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[4.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/turtle_interfaces
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces' for CMake module files
+[4.578s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces' for CMake config files
+[4.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib'
+[4.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[4.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[4.581s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/bin'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib/python3.10/site-packages'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/bin'
+[4.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[4.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[4.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[4.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[4.587s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces' for CMake module files
+[4.588s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces' for CMake config files
+[4.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[4.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[4.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[4.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[4.590s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib'
+[4.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[4.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[4.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[4.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/bin'
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib/python3.10/site-packages'
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/bin'
+[4.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[4.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[4.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[4.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[4.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[4.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[4.596s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yami/CODE/Tiburon Software Induction/turtle_controller' with build type 'ament_python'
+[4.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'ament_prefix_path')
+[4.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.ps1'
+[4.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.dsv'
+[4.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.sh'
+[4.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.016s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yami/CODE/Tiburon Software Induction/turtle_controller'
+[5.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.017s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yami/CODE/Tiburon Software Induction/turtle_controller': AMENT_PREFIX_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces LD_LIBRARY_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages:/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build install --record /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log --single-version-externally-managed install_data
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller' for CMake module files
+[6.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yami/CODE/Tiburon Software Induction/turtle_controller' returned '0': AMENT_PREFIX_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces LD_LIBRARY_PATH=/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yami/CODE/Tiburon Software Induction/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages:/home/yami/CODE/Tiburon Software Induction/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/build install --record /home/yami/CODE/Tiburon Software Induction/build/turtle_controller/install.log --single-version-externally-managed install_data
+[6.603s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller' for CMake config files
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib'
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/bin'
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/pkgconfig/turtle_controller.pc'
+[6.604s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/lib/python3.10/site-packages'
+[6.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath')
+[6.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/pythonpath.ps1'
+[6.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/pythonpath.dsv'
+[6.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/hook/pythonpath.sh'
+[6.606s] Level 1:colcon.colcon_core.environment:checking '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/bin'
+[6.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller)
+[6.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/package.ps1'
+[6.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/package.dsv'
+[6.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/package.sh'
+[6.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/package.bash'
+[6.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/turtle_controller/package.zsh'
+[6.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yami/CODE/Tiburon Software Induction/install/turtle_controller/share/colcon-core/packages/turtle_controller)
+[6.609s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.610s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.679s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.776s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yami/CODE/Tiburon Software Induction/install/local_setup.ps1'
+[6.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yami/CODE/Tiburon Software Induction/install/_local_setup_util_ps1.py'
+[6.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yami/CODE/Tiburon Software Induction/install/setup.ps1'
+[6.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yami/CODE/Tiburon Software Induction/install/local_setup.sh'
+[6.815s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yami/CODE/Tiburon Software Induction/install/_local_setup_util_sh.py'
+[6.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yami/CODE/Tiburon Software Induction/install/setup.sh'
+[6.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yami/CODE/Tiburon Software Induction/install/local_setup.bash'
+[6.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yami/CODE/Tiburon Software Induction/install/setup.bash'
+[6.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yami/CODE/Tiburon Software Induction/install/local_setup.zsh'
+[6.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yami/CODE/Tiburon Software Induction/install/setup.zsh'

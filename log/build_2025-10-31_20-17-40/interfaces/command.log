@@ -1,0 +1,4 @@
+Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/interfaces -- -j8 -l8
+Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yami/CODE/Tiburon Software Induction/build/interfaces -- -j8 -l8
+Invoking command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/interfaces
+Invoked command in '/home/yami/CODE/Tiburon Software Induction/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yami/CODE/Tiburon Software Induction/build/interfaces
